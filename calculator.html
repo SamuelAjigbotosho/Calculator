@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+  </head>
+  <body>
+    <form action="#">
+      <h2>Simple Calculator</h2>
+      <hr />
+      <label for="first input">Enter a Number</label>
+      <input
+        type="number"
+        id="firstNumber"
+        name="number"
+        class="input"
+        required
+      />
+      <label for="second input">Enter another Number</label>
+      <input
+        type="number"
+        id="secondNumber"
+        name="number"
+        class="input"
+        required
+      />
+      <div class="btns-container">
+        <button id="add" type="button" class="btn">+</button>
+        <button id="subtract" type="button" class="btn">-</button>
+        <button id="multiply" type="button" class="btn">x</button>
+        <button id="divide" type="button" class="btn">/</button>
+      </div>
+      <h3>Result</h3>
+      <div class="result" id="result"></div>
+      <button id="reset" class="btn reset">Reset</button>
+    </form>
+    <script src="calaculator.js"></script>
+  </body>
+</html>
