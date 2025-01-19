@@ -42,8 +42,8 @@ multiplyBtn.addEventListener("click", (e) => {
 divideBtn.addEventListener("click", (e) => {
   result.textContent = parseFloat(
     Number(firstNum.value) / Number(secondNum.value)
-  );
-  return result.textContent;
+  ).toFixed(2);
+  return Numberresult.textContent;
 });
 
 resetBtn.addEventListener("click", (e) => {

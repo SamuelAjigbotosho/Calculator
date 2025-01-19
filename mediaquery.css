@@ -1,79 +1,83 @@
-@media (min-width: 350px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 800px) {
   form {
-    margin-left: 1rem;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    background-color: #05418a;
+    gap: 1rem;
     padding: 1rem;
-    height: 98vh;
-    width: 90%;
+    height: 100vh;
+    width: 100%;
     border: none;
-    border-radius: 1em;
-    color: white;
+    border-radius: 10px;
   }
   .btn {
-    width: 25%;
-    height: 3rem;
     font-size: 1.3rem;
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    background-color: #a0a0c5;
-    color: rgb(2, 4, 140);
     cursor: pointer;
+    margin-top: 2rem;
+  }
+
+  p {
+    margin: 1rem;
+  }
+  p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding: 0.3rem;
   }
 
   .result {
     width: 95%;
     margin-left: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .input {
+    font-size: 1.5rem;
   }
 }
 
 @media (min-width: 801px) and (max-width: 1200px) {
   form {
-    margin: 10px auto;
+    margin: 0;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #05418a;
     padding: 3rem;
-    height: 95vh;
-    width: 80%;
+    height: 100vh;
+    width: 100%;
     border: none;
-    border-radius: 1em;
-    color: white;
+    border-radius: 10px;
   }
+
   .btn {
-    width: 25%;
-    height: 3rem;
-    font-size: 1.3rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 50px;
-    background-color: #a0a0c5;
-    color: rgb(2, 4, 140);
-    cursor: pointer;
-    margin-top: 3rem;
-    padding: 1rem;
+    font-size: 2rem;
+    height: 6rem;
+    padding: 2rem;
   }
 
   .result {
     width: 95%;
-    margin-left: 1rem;
+    margin-left: 2rem 0 1rem 2rem;
+  }
+
+  .input {
+    height: 4rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
   h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
   }
-
-  h3 {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 9rem;
-  }
-
+  p,
   label {
     font-size: 2rem;
   }
